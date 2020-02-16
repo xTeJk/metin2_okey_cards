@@ -1,5 +1,5 @@
 # Okey Cards
-## with a new counting of points
+with new points counting feature
 [![Discord](https://discordapp.com/api/guilds/370909694056726528/widget.png?style=shield)](https://discord.gg/jqbq85J)
 
 This project contains all of the Okey Cards system files along with updated point counting.
