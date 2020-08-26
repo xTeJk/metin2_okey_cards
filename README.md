@@ -1,6 +1,6 @@
 # Okey Cards
 with new points counting feature  
-[![Discord](https://discordapp.com/api/guilds/370909694056726528/widget.png?style=shield)](https://discord.gg/jqbq85J)
+[![Discord](https://img.shields.io/discord/748288505507217428.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/AEfuvwT)  
 
 This project contains all of the Okey Cards system files along with updated point counting.
 All incompatibilities and errors in this system have been repaired, and some functions replaced with new ones that work better.
