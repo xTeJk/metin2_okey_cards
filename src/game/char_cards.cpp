@@ -88,8 +88,19 @@ void CHARACTER::Cards_pullout()
 		ChatPacket(CHAT_TYPE_INFO, LC_TEXT("You dont have space on table. // Nie masz miejsca na stole."));
 		return;
 	}
-	RandomizeCards();
-	SendUpdatedInformations();
+
+	// pull cards for all empty slots // @Luzer
+	for (BYTE i = 0; i < 5; i++)
+	{
+		if (empty_space == -1)
+			break;
+		if (character_cards.cards_left < 1)
+			break;
+		if (GetAllCardsCount() >= 5)
+			break;
+		RandomizeCards();
+		SendUpdatedInformations();
+	}
 }
 
 void CHARACTER::RandomizeCards()
